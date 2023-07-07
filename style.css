@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(back3.png) no-repeat center center/cover;
+}
+.navbar{
+    display: flex;
+    /* background-color: red; */
+    height: 60px;
+    justify-content: right;
+    align-items: center;
+    margin-right: 5px;
+}
+.navbar nav a{
+background-color: white;
+border: 2px solid black;
+border-radius: 5px;
+padding: 1px 3px 1px 3px;
+margin: 1px;
+font-family: math;
+font-size: 20px;
+color: black;
+margin-top: 10px;
+text-decoration: none;
+}
+nav a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 183, 194);
+    width: 60vw;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    height: 60vh;
+    box-shadow: 5px 5px 5px rgb(0, 255, 195);
+}
+
+#url {
+    padding: 5px;
+    border: 2px solid black;
+    width: 30vw;
+    text-align: center;
+    font-family: cursive;
+    word-spacing: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    margin-top: 8px;
+    margin-left: 6px;
+}
+.logo img{
+    border-radius:25px;
+margin-right: 2px;
+}
+
+#claim{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 80px;
+    word-spacing: 7px;
+}
